@@ -7,9 +7,9 @@ class Carro {
     }
 
     dirigir(distancia) {
-        if (distancia > 0) {
-            this.kilometragem += distancia;
-        }
+        if (distancia >= 0) return this.kilometragem += distancia;
+        
+        throw new Error("O valor precisa ser maior que zero");
     }
 
     obterInfo() {
