@@ -1,27 +1,33 @@
-# JEST Unit Tests
+# Trabalho01Turma01
 
-## GitHub Actions
+## Descrição
 
-[![Build and Tests](https://github.com/ugioni/unit-tests-jest/actions/workflows/node.js.yml/badge.svg?branch=master)](https://github.com/ugioni/unit-tests-jest/actions/workflows/node.js.yml)
+`Trabalho01Turma01` é um gerenciador de tarefas simples que permite adicionar, listar, marcar e remover tarefas. Ele suporta funcionalidades adicionais, como associar tags às tarefas e buscar tarefas por data.
 
-## SonarCloud
+## Funcionalidades
 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ugioni_unit-tests-jest&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=ugioni_unit-tests-jest)
+- Adicionar tarefas
+- Listar todas as tarefas
+- Marcar todas as tarefas como concluídas
+- Listar tarefas concluídas
+- Listar tarefas pendentes
+- Remover tags de tarefas
+- Listar tarefas por tag
+- Buscar tarefas por data
+- Remover todas as tarefas
 
-## Getting Started
+## Pré-requisitos
 
-In order to execute this project you must follow the steps below:
+Antes de começar, verifique se você tem o Node.js instalado. É recomendado usar a versão 16 ou superior.
 
-1. Install [Node JS](https://nodejs.org/) (version >= 18.x)
+## Instalação
+
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/lucasborba111/LucasBorba-Turma01-Trabalho01.git
+
+## Uso
+
 1. Run `npm install` to install all the project dependencies
 1. Run `npm run test` to execute the entire test suite
 1. Run `npm run coverage` to execute the entire test suite with coverage
-
-All execution artifacts can be found in `./coverage`, if you want to remove these files run `npm run clean`.
-
-## Project Structure
-</br>
-<ul>
-    <li>src: source code</li>
-    <li>test: unit test files</li>
-</ul>
